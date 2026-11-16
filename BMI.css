@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5ff;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.calculator {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #168ac0;
+}
+
+.intro {
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #168ac0;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #168ac0;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0874a5;
+}
+
+.reset {
+    background-color: #555;
+}
+
+.reset:hover {
+    background-color: #333;
+}
+
+.result {
+    background-color: #e8f5ff;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.result h2 {
+    color: #168ac0;
+}
+
+.result h1 {
+    font-size: 35px;
+}
+
+.result h3 {
+    color: #168ac0;
+}
+
+.result p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.guide {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.guide h3 {
+    color: #168ac0;
+}
+
+.guide p {
+    font-size: 14px;
+    color: #444;
+}
